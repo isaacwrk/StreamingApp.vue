@@ -1,9 +1,9 @@
 <template>
-    <div class="">
+    <div class="min-h-screen">
         <div class="flex flex-wrap px-9 mt-10 items-center mb-9">
             <img src="~@/assets/profilepic.jpg" class="w-10 h-10 rounded border-solid border-2 border-white" alt="Cyclops profile picture">
             <div class="flex-1 px-4">
-                <p class="text-font-black font-medium">Mr. Cyclop</p>
+                <p class="text-font-black font-medium">Mr. Cyclops</p>
                 <p class="text-sub-gray text-xs">Basic Subscription</p>
             </div>
             <button class="h-7 w-20 rounded-md bg-bottom-purple text-xs font-medium">
@@ -17,16 +17,16 @@
 
         <div class="flex flex-wrap justify-center mt-5.5">
             <div class="">
-                <div class="absolute bg-strong-purple  rounded-xl w-32 h-17">
+                <div class="absolute bg-strong-purple rounded-xl w-32 h-17">
                     <p class="text-base-white text-xs p-3 opacity-80">Dark</p>
                 </div>
-                <img src="~@/assets/darkposter.jpg"  class="w-36 h-9.5 mr-2.5 rounded-xl" alt="">
+                <img src="~@/assets/darkposter.jpg"  class="w-36 h-9.5 mr-2.5 rounded-xl" alt="Dark Season Finale">
             </div>
             <div class="">
                 <div class="absolute bg-strong-purple  rounded-xl w-32 h-17">
                     <p class="text-base-white text-xs p-3 opacity-80">Captain America 2</p>
                 </div>
-                <img src="~@/assets/theofficeposter.jpg"  class="w-36 h-9.5 rounded-xl" alt="">
+                <img src="~@/assets/theofficeposter.jpg"  class="w-36 h-9.5 rounded-xl" alt="Capitain América 2: The winter Soldier">
             </div>
         </div>
 
@@ -41,10 +41,10 @@
         <div class="mt-06 whites-space nowrap overflow-x-auto">
             <TrendingNow/>
         </div>
-        <!--Nav bar fixed-->
         <NavBar/>
     </div>
 </template>
+
 
 <script lang='ts'>
 import { defineComponent } from 'vue';

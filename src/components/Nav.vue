@@ -3,7 +3,7 @@
         <i class="uil uil-home ml-10 text-xl text-nav-icon hover:text-strong-purple"></i>
         <i class="uil uil-user text-xl  text-nav-icon hover:text-strong-purple"></i>
         <i class="uil uil-folder-heart text-xl  text-nav-icon hover:text-strong-purple"></i>
-        <i class="uil uil-setting mr-10 text3xl  text-nav-icon hover:text-strong-purple"></i>
+        <i class="uil uil-setting mr-10 text-xl  text-nav-icon hover:text-strong-purple"></i>
     </nav>
 </template>
 

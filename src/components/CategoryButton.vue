@@ -1,19 +1,19 @@
 <template>
     <div class="ml-9 whitespace-nowrap overflow-x-auto">
-        <div class="bg-bottom-purple w-20 h-19 p-5 rounded text-center inline-block  hover:text-white hover:bg-strong-purple text-strong-purple text-xs">
-            <i class="uil uil-search"></i>
+        <div class="bg-bottom-purple w-20 h-19 p-3 rounded text-center inline-block  hover:text-white hover:bg-strong-purple text-strong-purple text-sm">
+            <i class="uil uil-search text-xl"></i>
             <p>Search</p>
         </div>
-        <div class="bg-bottom-purple ml-2 w-20 h-19 p-5 rounded text-center inline-block  hover:text-white hover:bg-strong-purple text-strong-purple text-xs">
-            <i class="uil uil-desktop"></i>
-            <p class="text-right">TV Shows</p>
+        <div class="bg-bottom-purple ml-2 w-20 h-19 p-3 rounded text-center inline-block  hover:text-white hover:bg-strong-purple text-strong-purple text-sm">
+            <i class="uil uil-desktop text-xl"></i>
+            <p class="text-sm">TV Shows</p>
         </div>
-        <div class="bg-bottom-purple ml-2 w-20 h-19 p-5 rounded text-center inline-block  hover:text-white hover:bg-strong-purple text-strong-purple text-xs">
-            <i class="uil uil-film"></i>
+        <div class="bg-bottom-purple ml-2 w-20 h-19 p-3 rounded text-center inline-block  hover:text-white hover:bg-strong-purple text-strong-purple text-sm">
+            <i class="uil uil-film text-xl"></i>
             <p>Movies</p>
         </div>
-        <div class="bg-bottom-purple ml-2 w-20 h-19 p-5 rounded text-center inline-block  hover:text-white hover:bg-strong-purple text-strong-purple text-xs">
-            <i class="uil uil-basketball"></i>
+        <div class="bg-bottom-purple ml-2 w-20 h-19 p-3 rounded text-center inline-block  hover:text-white hover:bg-strong-purple text-strong-purple text-sm">
+            <i class="uil uil-basketball text-xl"></i>
             <p>Sports</p>
         </div>
     </div>
