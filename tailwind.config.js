@@ -6,10 +6,14 @@ module.exports = {
             fontFamily:{
                 sans:['Roboto']
             },
+            width:{
+                '28.5':'7.5rem'
+            },
             height:{
                 '19':'4.5rem',
                 '9.5':'9.5rem',
-                '17':'4.5rem'
+                '17':'4.5rem',
+                '20.5':'5.25rem'
             },
             margin:{
                 '5.5':'1.3rem'
