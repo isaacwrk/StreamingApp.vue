@@ -12,7 +12,11 @@ module.exports = {
                 "base-purple":"#f2e8ff",
                 "buttom-pink":"#f974ca",
                 "base-white":"#ffffff",
-                "yellow-star":"#f0bb40"
+                "yellow-star":"#f0bb40",
+                "font-black":"#32404a",
+                "bottom-purple":"#e7d6ff",
+                "text-purple":"#cfaeff",
+                "sub-gray":"#a2a2b4"
             }
         },
     },
