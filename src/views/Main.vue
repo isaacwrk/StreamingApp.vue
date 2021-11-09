@@ -41,10 +41,8 @@
         <div class="mt-06 whites-space nowrap overflow-x-auto">
             <TrendingNow/>
         </div>
-        <!--Nav-->
-        <div class="">
-
-        </div>
+        <!--Nav bar fixed-->
+        <NavBar/>
     </div>
 </template>
 
@@ -54,12 +52,14 @@ import { defineComponent } from 'vue';
 import CategoryButtons from '@/components/CategoryButton.vue';
 import TopNow from '@/components/TopNow.vue';
 import TrendingNow from '@/components/TrendingNow.vue';
+import NavBar from '@/components/Nav.vue';
 
 const name = defineComponent({
     components:{
         CategoryButtons,
         TopNow,
-        TrendingNow
+        TrendingNow,
+        NavBar
     }
 });
 
