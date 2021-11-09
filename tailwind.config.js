@@ -6,7 +6,12 @@ module.exports = {
             fontFamily:{
                 sans:['Roboto']
             },
-
+            height:{
+                '19':'4.5rem'
+            },
+            borderRadius:{
+                '4xl':'2.3rem'
+            },
             colors:{
                 "strong-purple": "#8b3cfa",
                 "base-purple":"#f2e8ff",
