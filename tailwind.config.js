@@ -7,7 +7,12 @@ module.exports = {
                 sans:['Roboto']
             },
             height:{
-                '19':'4.5rem'
+                '19':'4.5rem',
+                '9.5':'9.5rem',
+                '17':'4.5rem'
+            },
+            margin:{
+                '5.5':'1.3rem'
             },
             borderRadius:{
                 '4xl':'2.3rem'

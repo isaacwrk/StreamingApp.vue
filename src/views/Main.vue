@@ -10,8 +10,27 @@
                 <div class="text-text-purple">Upgrade<sup>+</sup></div>
             </button>
         </div>
+
         <CategoryButtons/>
+
         <p class="text-font-black font-bold ml-10 mt-8">Continue Watching</p>
+
+        <div class="flex flex-wrap justify-center mt-5.5">
+            <div class="">
+                <div class="absolute bg-strong-purple bottom-14 rounded-xl w-32 h-17">
+                    <p class="text-base-white text-xs p-3 opacity-80">Dark</p>
+                </div>
+                <img src="~@/assets/darkposter.jpg"  class="w-36 h-9.5 mr-2.5 rounded-xl" alt="">
+            </div>
+            <div class="">
+                <div class="absolute bg-strong-purple bottom-14 rounded-xl w-32 h-17">
+                    <p class="text-base-white text-xs p-3 opacity-80">Captain America 2</p>
+                </div>
+                <img src="~@/assets/theofficeposter.jpg"  class="w-36 h-9.5 rounded-xl" alt="">
+            </div>
+        </div>
+
+        <p class="text-font-black font-bold mt-8 ml-10">Top now</p>
     </div>
 </template>
 
