@@ -3,6 +3,10 @@ module.exports = {
     darkMode: false, // or 'media' or 'class'
     theme: {
         extend: {
+            fontFamily:{
+                sans:['Roboto']
+            },
+
             colors:{
                 "strong-purple": "#8b3cfa",
                 "base-purple":"#f2e8ff",
