@@ -12,11 +12,11 @@
 <script lang='ts'>
 import { defineComponent } from 'vue';
 
-const Carrousels = defineComponent({
+const TopNow = defineComponent({
   
 });
 
-export default Carrousels;
+export default TopNow;
 </script>
 
 <style>

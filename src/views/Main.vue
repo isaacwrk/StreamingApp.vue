@@ -30,10 +30,16 @@
             </div>
         </div>
 
+        <!-- Top Now Carrousel-->
         <p class="text-font-black font-bold mt-8 ml-10">Top now</p>
-
         <div class="mt-6 whitespace-nowrap overflow-x-auto">
-            <Carrousels/>
+            <TopNow/>
+        </div>
+        
+        <!-- Trending Carrousel-->
+        <p class="text-font-black font-bold mt-9 ml-10">Trending Now</p>
+        <div class="mt-06 whites-space nowrap overflow-x-auto">
+
         </div>
     </div>
 </template>
@@ -42,12 +48,12 @@
 import { defineComponent } from 'vue';
 //components
 import CategoryButtons from '@/components/CategoryButton.vue';
-import Carrousels from '@/components/Carrousels.vue';
+import TopNow from '@/components/TopNow.vue';
 
 const name = defineComponent({
     components:{
         CategoryButtons,
-        Carrousels
+        TopNow
     }
 });
 

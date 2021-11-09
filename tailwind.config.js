@@ -30,7 +30,7 @@ module.exports = {
                 "font-black":"#32404a",
                 "bottom-purple":"#e7d6ff",
                 "text-purple":"#cfaeff",
-                "sub-gray":"#a2a2b4"
+                "sub-gray":"#A8A7B9"
             }
         },
     },
