@@ -7,7 +7,7 @@
         </RouterView>
         
         <NavigationBar>
-            <NavigationBarItem icon="uil uil-user" 
+            <NavigationBarItem icon="uil uil-home" 
                                :selected="$route.name == 'home'"
                                @click="$router.replace({name:'home'})"/>
             <NavigationBarItem icon="uil uil-play" 
