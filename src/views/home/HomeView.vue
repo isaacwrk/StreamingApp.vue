@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="absolute top-0 right-0 h-80 w-full bg-base-purple rounded-bl-4xl rounded rounded-br-xl"></div>
-        <div class="relative z-10 pt-15 pb-32">
+        <div class="relative z-10 pt-15 pb-24">
 
             <div class="flex flex-wrap px-9 mt-10 items-center mb-9">
                 <img src="~@/assets/profilepic.jpg" class="w-10 h-10 rounded border-solid border-2 border-white" alt="Cyclops profile picture">
