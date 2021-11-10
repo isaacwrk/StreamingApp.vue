@@ -1,5 +1,8 @@
 import { createApp } from 'vue';
 import App from './App.vue';
-import './index.css';
+import './assets/styles/tailwind.css';
+import './assets/styles/transitions.css';
+import router from './router';
 
-createApp(App).mount('#app');
+
+createApp(App).use(router).mount('#app');

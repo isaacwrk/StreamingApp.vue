@@ -22,10 +22,10 @@
 <script lang='ts'>
 import { defineComponent } from 'vue';
 
-const categoryButton = defineComponent({
+const CategoryButton = defineComponent({
 });
 
-export default categoryButton;
+export default CategoryButton;
 </script>
 
 <style>
