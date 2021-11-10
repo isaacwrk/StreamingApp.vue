@@ -22,7 +22,8 @@ module.exports = {
                 '4xl':'2.3rem'
             },
             colors:{
-                "strong-purple": "#8b3cfa",
+                "dark-purple":"#823BE9",
+                "strong-purple": "#8E3EFF",
                 "base-purple":"#f2e8ff",
                 "buttom-pink":"#f974ca",
                 "base-white":"#ffffff",
