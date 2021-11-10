@@ -6,8 +6,8 @@
                 <p class="text-font-black font-medium">Mr. Cyclops</p>
                 <p class="text-sub-gray text-xs">Basic Subscription</p>
             </div>
-            <button class="h-7 w-20 rounded-md bg-bottom-purple text-xs font-medium">
-                <div class="text-text-purple">Upgrade<sup>+</sup></div>
+            <button class="h-7 w-20 rounded-md bg-bottom-purple hover:bg-text-purple text-xs font-medium">
+                <div class="text-text-purple hover:text-base-white">Upgrade<sup>+</sup></div>
             </button>
         </div>
 
@@ -25,13 +25,13 @@
                     </div>
                     <p class="ml-2 mt-1 text-base-white text-xs opacity-60">S01 E07</p>
                 </div>
-                <div class="absolute bg-buttom-pink -bottom-5 right-4 rounded-full w-10 h-10 ">
+                <div class="absolute bg-buttom-pink hover:bg-pink-500 -bottom-5 right-4 rounded-full w-10 h-10 ">
                     <i class="uil uil-play flex justify-center p-3 font-black text-base-white"></i>
                 </div>
                 <img src="~@/assets/darkposter.jpg"  class="w-36 h-9.5 mr-2.5 rounded-xl" alt="Dark Season Finale">
             </div>
             <div class="relative">
-                <div class="absolute  bottom-0 right-0 bg-strong-purple rounded-xl w-32 h-17">
+                <div class="absolute  bottom-0 right-0 bg-strong-purple  rounded-xl w-32 h-17">
                     <p class="text-base-white text-xs p-3 opacity-80">Captain America 2</p>
                     <div class="h-1 ml-2 relative w-24 rounded-full overflow-hidden">
                         <div class="w-full h-full bg-dark-purple absolute"></div>
@@ -39,7 +39,7 @@
                     </div>
                     <p class="ml-2 mt-1 text-base-white text-xs opacity-60">01:45:35</p>
                 </div>
-                <div class="absolute bg-buttom-pink -bottom-5 right-4 rounded-full w-10 h-10 ">
+                <div class="absolute bg-buttom-pink hover:bg-pink-500 -bottom-5 right-4 rounded-full w-10 h-10 ">
                     <i class="uil uil-play flex justify-center p-3 font-black text-base-white"></i>
                 </div>
                 <img src="~@/assets/theofficeposter.jpg"  class="w-36 h-9.5 rounded-xl" alt="Capitain América 2: The winter Soldier">
