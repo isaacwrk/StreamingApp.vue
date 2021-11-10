@@ -40,7 +40,7 @@
         
         <!-- Trending Carrousel-->
         <p class="text-font-black font-bold mt-9 ml-10">Trending Now</p>
-        <div class="mt-06 whites-space nowrap overflow-x-auto">
+        <div class="mt-6 whites-space nowrap overflow-x-auto">
             <TrendingNow/>
         </div>
         <NavBar/>
