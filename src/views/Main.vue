@@ -17,28 +17,14 @@
 
         <div class="flex flex-wrap justify-center mt-5.5">
             <div class="relative">
-                <div class="absolute bottom-0 right-2 bg-strong-purple rounded-xl w-32 h-17">
-                    <p class="text-base-white text-xs p-3 opacity-80">Dark</p>
-                    <div class="ml-2 h-1 relative w-24 rounded-full overflow-hidden">
-                        <div class="w-full h-full bg-dark-purple absolute"></div>
-                        <div class="h-full bg-buttom-pink absolute rounded" style="width:60%"></div>
-                    </div>
-                    <p class="ml-2 mt-1 text-base-white text-xs opacity-60">S01 E07</p>
-                </div>
+                <ContinueWatching movieName="Dark" currentTime="S01 E07" class="right-2"/>
                 <div class="absolute bg-buttom-pink hover:bg-pink-500 -bottom-5 right-4 rounded-full w-10 h-10 ">
                     <i class="uil uil-play flex justify-center p-3 font-black text-base-white"></i>
                 </div>
                 <img src="~@/assets/darkposter.jpg"  class="w-36 h-9.5 mr-2.5 rounded-xl" alt="Dark Season Finale">
             </div>
             <div class="relative">
-                <div class="absolute  bottom-0 right-0 bg-strong-purple  rounded-xl w-32 h-17">
-                    <p class="text-base-white text-xs p-3 opacity-80">Captain America 2</p>
-                    <div class="h-1 ml-2 relative w-24 rounded-full overflow-hidden">
-                        <div class="w-full h-full bg-dark-purple absolute"></div>
-                        <div class="h-full bg-buttom-pink absolute rounded" style="width:80%"></div>
-                    </div>
-                    <p class="ml-2 mt-1 text-base-white text-xs opacity-60">01:45:35</p>
-                </div>
+                <ContinueWatching movieName="Captain America 2" currentTime="01:45:37"/>
                 <div class="absolute bg-buttom-pink hover:bg-pink-500 -bottom-5 right-4 rounded-full w-10 h-10 ">
                     <i class="uil uil-play flex justify-center p-3 font-black text-base-white"></i>
                 </div>
@@ -66,6 +52,7 @@
 import { defineComponent } from 'vue';
 //components
 import CategoryButtons from '@/components/CategoryButton.vue';
+import ContinueWatching from '@/components/ContinueWatching.vue';
 import TopNow from '@/components/TopNow.vue';
 import TrendingNow from '@/components/TrendingNow.vue';
 import NavBar from '@/components/Nav.vue';
@@ -73,6 +60,7 @@ import NavBar from '@/components/Nav.vue';
 const name = defineComponent({
     components:{
         CategoryButtons,
+        ContinueWatching,
         TopNow,
         TrendingNow,
         NavBar
